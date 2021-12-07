@@ -1,5 +1,8 @@
-
 # Project exclude paths
 /.gradle/
 /build/
 /build/classes/java/main/
+/.idea/
+
+# my secrets >:) not for your eyes
+DiscordBotToken.txt
