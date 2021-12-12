@@ -1,6 +1,7 @@
 package discord.bot;
 
 import discord.bot.commands.BigBrainCommand;
+import discord.bot.commands.CatCommand;
 import discord.bot.commands.CheckOnlineCommand;
 import discord.bot.commands.FisheyeAttachedImageCommand;
 import discord.bot.commands.HelpCommand;
@@ -39,6 +40,9 @@ public class DiscordBot {
 
         // big brain an image with face recognition when image and brain
         api.addMessageCreateListener(new BigBrainCommand());
+
+        // fisheye an image with cat face recognition when image and meow
+        api.addMessageCreateListener(new CatCommand());
 
         // Print the invite url of your bot
         System.out.println("Invite link: " + api.createBotInvite());
