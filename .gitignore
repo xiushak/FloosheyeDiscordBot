@@ -3,6 +3,7 @@
 /build/
 /build/classes/java/main/
 /.idea/
+/bin/
 
 # my secrets >:) not for your eyes
 DiscordBotToken.txt
