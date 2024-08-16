@@ -29,7 +29,7 @@ public class FisheyeAttachedImageCommand implements MessageCreateListener {
         if (attachment.isImage()) {
           System.out.println("Image detected!");
           try {
-            BufferedImage image = attachment.downloadAsImage().join();
+            BufferedImage image = attachment.asImage().join();
             String name = attachment.getFileName();
             SimpleModel model = new FaceRecognitionFishEyeModel();
             SimpleView view = new BasicJPGView(model);

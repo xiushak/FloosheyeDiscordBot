@@ -42,7 +42,7 @@ public class RandomFisheyeImageCommand implements MessageCreateListener {
                     return;
                 }
                 try {
-                    BufferedImage image = attachment.downloadAsImage().join();
+                    BufferedImage image = attachment.asImage().join();
                     String name = attachment.getFileName();
                     SimpleModel model;
                     if (r.nextInt(2) != 0) {

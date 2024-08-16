@@ -3,6 +3,7 @@
 /build/
 /build/classes/java/main/
 /.idea/
+/.vscode/
 /bin/
 
 # my secrets >:) not for your eyes

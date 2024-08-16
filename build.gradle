@@ -23,7 +23,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 
-    implementation 'org.javacord:javacord:3.3.2'
+    implementation 'org.javacord:javacord:3.8.0'
     implementation 'com.github.xiushak:FlooshedEye:master-SNAPSHOT'
 }
 
